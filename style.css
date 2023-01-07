@@ -1,0 +1,264 @@
+
+
+* {
+    margin: 0;
+    padding: 0;
+  }
+  /* Banner Style section */
+  .banner {
+    background-image: url(./images/banner/banner3.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 1800px;
+    height: 900px;
+    position: relative;
+  }
+  .ban-cont {
+    text-align: right;
+    /* height: 328px;
+    width: 525; */
+  }
+  .banner-title {
+    font-weight: 700;
+    font-size: 50px;
+    text-align: right;
+    color: #151414;
+    margin-right: 150px;
+    padding-top: 150px;
+    padding-right: 150px;
+  }
+  .banner-description {
+    /* max-width: 490px; */
+    text-align: right;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    
+    color: #444343;
+    margin-right: 290px;
+    padding-top: 15px;
+    /* height: 78px;
+    width: 500px; */
+  }
+ 
+
+  .banner .btn-primary{
+    width: 160px;
+    height: 64px;
+    background: #f15b22;
+    border-radius: 5px;
+    margin-top: 20px;
+    margin-right: 290px;
+    font-family: "Work Sans";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    text-align: center;
+    color: #ffffff;
+    border: none;
+  }
+  /* .banner .btn-primary{
+    position: absolute;
+    width: 113.77px;
+    height: 16.17px;
+    left: 1237.14px;
+    top: 592.77px;
+    
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: right;
+    
+    color: #FFFFFF;
+
+  } */
+  .btn-primary{
+    color: #FFFFFF;
+    font-weight: 600;
+    font-size: 20px;
+    border: 0;
+    padding: 18px 35px;
+    height: 64px;
+    background:  #fd6a0a;
+    border-radius: 5px;
+}
+
+
+
+
+/* Failure section style */
+.failure {
+    display: flex;
+    justify-content: space-around;
+    gap: 10px;
+    margin: 0 auto;
+  }
+
+  .f-title {
+    margin-top: 170px;
+    font-family: "Work Sans";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+  
+    color: #151414;
+  }
+  .f-description {
+    font-family: "Work Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    color: #444343;
+    margin-top: 30px;
+    width: 416px;
+    height: 104px;
+  }
+  .title {
+    font-family: "Work Sans";
+    font-weight: 400;
+    font-size: 16px;
+    color: hsl(0, 1%, 26%);
+    margin-top: -85px;
+    margin-left: 30px;
+  }
+  .icons {
+    display: flex;
+    flex-direction: column;
+    color: #d81c16be;
+    margin-top: 20px;
+  
+  }
+  /* .title {
+    font-family: "Work Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    color: #444343;
+    margin-top: 30px;
+  } */
+
+  /* Plans style section */
+  .plans {
+    /* align-items: center; */
+    margin-top: 55px;
+    margin-bottom: 100px;
+  }
+  .p-title {
+    font-family: "Work Sans";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+    color: #151414;
+    text-align: center;
+  }
+  .course-name {
+    display: flex;
+    justify-content: center;
+  }
+  .name {
+    
+    justify-content: center;
+    padding: 15px;
+    margin-left: 35px;
+    margin-top: 25px;
+  }
+  .course-icon {
+    margin-left: 75px;
+  }
+  .course-title {
+    font-family: "Work Sans";
+    font-weight: 700;
+    font-size: 30px;
+    text-align: center;
+    color: #151414;
+    margin-top: 10px;
+  }
+  .course-description {
+    font-family: "Work Sans";
+    font-weight: 500;
+    font-size: 25px;
+    text-align: center;
+    color: #737272;
+  }
+  /* Mindset style section */
+  .mindset {
+    background-image: url('./images/watch.png'), url('./images/gradient2.png');
+    background-repeat: no-repeat;
+    background-blend-mode: multiply;
+    height: 300px;
+    width: 1140px;
+    background-size: cover;
+    
+    margin: 0 auto;
+    border-radius: 8px;
+   
+    margin-bottom: 100px;
+  }
+  
+  .mindset-title {
+    font-weight: 700;
+    font-size: 40px;
+    margin-left: 30px;
+    color: #ffffff;
+    padding-top: 25px;
+    padding-bottom: 25px;
+  }
+  .mindset-btn {
+    width: 160px;
+    height: 64px;
+    color: white;
+    font-family: "Work Sans";
+    font-weight: 600;
+    font-size: 20px;
+    text-align: center;
+    color: #f15b22;
+    margin-left: 30px;
+    border: 0;
+    border-radius: 8px;
+  }
+/* Footer style section */
+  .footer{
+    
+    display: flex;
+    gap: 100px;
+    background: #151414;
+    padding: 130px 200px;
+    width: 1600px;
+    height: 577px;
+  }
+  .footer .section-title{
+    text-align: left;
+  }
+  .footer-des{
+    height: 317px;
+    width: 485px;
+  }
+  .footer input[type="email"]{
+    margin-bottom: 24px;
+    width: 100%;
+    border: 0;
+    padding: 18px 30px;
+}
+.footer-title{
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 53px;
+    color: #F8F8F8;
+}
+
+.footer-description{
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #FFFFFF;
+}
+.footer a{
+    text-decoration: none;
+}
